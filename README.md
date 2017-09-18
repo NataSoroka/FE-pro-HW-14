@@ -2,4 +2,4 @@
 
 Создать свое собственное контекстное меню. 
 
-Просмотреть результат - https://natasoroka.github.io/FE-pro-HW-14/
+Посмотреть результат - https://natasoroka.github.io/FE-pro-HW-14/
