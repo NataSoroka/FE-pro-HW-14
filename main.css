@@ -30,3 +30,15 @@ html {
 .item:not(:last-child) {
     border-bottom: 1px solid black;
 }
+
+.message {
+    border: 1px solid #043552;
+    background-color: #E3E3FA;
+    border-radius: 3px;
+    position: absolute;
+    left: 45%;
+    top: 10px;
+    color: #043552;
+    font-weight: bold;
+    padding: 10px 50px 10px 10px;
+}

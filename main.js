@@ -8,7 +8,14 @@ window.onload = function() {
         this.title = title;
         this.toDo = function() {
             this.parentNode.style.display = "none";
-            alert(title);
+            var message = document.createElement("div");
+            message.classList.add("message");
+            message.innerHTML = title + "!";
+            document.body.appendChild(message);
+
+            setTimeout(function() {
+                message.parentNode.removeChild(message);
+            }, 2000);
         }
     }
 
