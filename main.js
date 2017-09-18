@@ -7,6 +7,7 @@ window.onload = function() {
     function ItemsMenu(title) {
         this.title = title;
         this.toDo = function() {
+            this.parentNode.style.display = "none";
             alert(title);
         }
     }
@@ -37,6 +38,7 @@ window.onload = function() {
             }
         }
 
+        menu.style.display = "block";
         menu.style.left = event.offsetX + "px";
         menu.style.top = event.offsetY + "px";
     })
