@@ -24,6 +24,7 @@ html {
 .item {
     padding: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .item:not(:last-child) {
