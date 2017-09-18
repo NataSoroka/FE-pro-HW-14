@@ -48,5 +48,8 @@ window.onload = function() {
         menu.style.display = "block";
         menu.style.left = event.offsetX + "px";
         menu.style.top = event.offsetY + "px";
+        document.addEventListener("click", function() {
+            menu.style.display = "none";
+        })
     })
 }
