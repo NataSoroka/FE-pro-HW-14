@@ -7,7 +7,7 @@ window.onload = function() {
     function ItemsMenu(title) {
         this.title = title;
         this.toDo = function() {
-            console.log(title);
+            alert(title);
         }
     }
 
