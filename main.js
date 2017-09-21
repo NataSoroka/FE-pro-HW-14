@@ -7,7 +7,7 @@ window.onload = function() {
     function ItemsMenu(title) {
         this.title = title;
         this.toDo = function() {
-            this.parentNode.style.display = "none";
+            // this.parentNode.style.display = "none";
             var message = document.createElement("div");
             message.classList.add("message");
             message.innerHTML = title + "!";
